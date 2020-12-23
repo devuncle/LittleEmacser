@@ -1,7 +1,8 @@
-#+title: Org Mode Compact Guide
+#+title: 奥戈org模式简明指南
 #+subtitle:  Release {{{version}}}
 #+author: The Org Mode Developers
-#+language: en
+#+translate: Devuncle
+#+language: cn
 
 #+texinfo: @insertcopying
 
