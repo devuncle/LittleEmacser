@@ -27,7 +27,7 @@ compact guide.
 modify this GNU manual."
 #+end_quote
 
-* Introduction
+* 介绍Introduction
 :PROPERTIES:
 :DESCRIPTION: Welcome!
 :END:
@@ -36,13 +36,17 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing
 project planning with a fast and effective plain-text system.  It is
 also an authoring and publishing system, and it supports working with
 source code for literal programming and reproducible research.
+奥戈(Org)使用快速高效纯文本系统来记笔记、维护待办事项列表，做项目管理。她也是写作和出版系统，
+她还支持源代码的“文字编程”和可重复研究。
 
 This document is a much compressed derivative of the [[info:org][comprehensive Org
 mode manual]].  It contains all basic features and commands, along with
 important hints for customization.  It is intended for beginners who
 would shy back from a 200 pages manual because of sheer size.
+本文档是[[info：org] [综合组织模式手册]]的压缩版本。 它包含所有基本功能和命令，以及重要的自定义提示。 
+本手册适用于因篇幅庞大而无法阅读200页手册的初学者。
 
-** Installation
+** 安装Installation
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
@@ -95,7 +99,7 @@ ideas about it, please mail to the Org mailing list
 mailto:emacs-orgmode@gnu.org.  For information on how to submit bug
 reports, see the main manual.
 
-* Document Structure
+* 文档结构Document Structure
 :PROPERTIES:
 :DESCRIPTION: A tree works like your brain.
 :END:
