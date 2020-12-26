@@ -99,7 +99,7 @@ ideas about it, please mail to the Org mailing list
 mailto:emacs-orgmode@gnu.org.  For information on how to submit bug
 reports, see the main manual.
 
-* 文档结构Document Structure
+* 文档结构
 :PROPERTIES:
 :DESCRIPTION: A tree works like your brain.
 :END:
@@ -113,14 +113,14 @@ worked on.  Org greatly simplifies the use of outlines by compressing
 the entire show and hide functionalities into a single command,
 ~org-cycle~, which is bound to the {{{kbd(TAB)}}} key.
 
-** Headlines
+奥戈Org是一个大纲。大纲允许将文档组织成一个层次结构，至少对我来说，这是笔记和思想的最佳表现。这个结构的概述可以通过折叠来实现，也就是隐藏文档的大部分，只显示一般的文档结构和当前正在处理的部分。Org通过将整个显示和隐藏功能压缩到单个命令~Org -cycle~中，极大地简化了文档的使用，该命令绑定到{{{kbd(TAB)}}}键。
+
+** 标题
 :PROPERTIES:
 :DESCRIPTION: How to typeset Org tree nodes.
 :END:
 
-Headlines define the structure of an outline tree.  The headlines in
-Org start on the left margin[fn:1] with one or more stars followed by
-a space.  For example:
+标题定义了大纲的结构。奥戈的标题从左边空白处开始，有一个或多个星号，后面跟着一个空格。例如：
 
 #+begin_example
 ,* Top level headline
@@ -132,14 +132,8 @@ a space.  For example:
 ,* Another top level headline
 #+end_example
 
-Note that a headline named after ~org-footnote-section~, which
-defaults to =Footnotes=, is considered as special.  A subtree with
-this headline will be silently ignored by exporting functions.
-
-Some people find the many stars too noisy and would prefer an outline
-that has whitespace followed by a single star as headline starters.
-See [[*Miscellaneous]] for a setup to realize this.
-
+注意，以org-footnote-section命名的标题(默认为'Footnotes')被认为是特殊的。带有此标题的子树将被导出函数无声地忽略。
+有些人觉得星号太多太吵了，他们更喜欢用空格后面跟着一个星号作为标题开头的轮廓。参见第15章杂项]，第38页的设置来实现这一点。
 ** Visibility Cycling
 :PROPERTIES:
 :DESCRIPTION: Show and hide, much simplified.
