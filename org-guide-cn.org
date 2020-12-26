@@ -134,7 +134,7 @@ the entire show and hide functionalities into a single command,
 
 注意，以org-footnote-section命名的标题(默认为'Footnotes')被认为是特殊的。带有此标题的子树将被导出函数无声地忽略。
 有些人觉得星号太多太吵了，他们更喜欢用空格后面跟着一个星号作为标题开头的轮廓。参见第15章杂项]，第38页的设置来实现这一点。
-** Visibility Cycling
+** 看见性循环
 :PROPERTIES:
 :DESCRIPTION: Show and hide, much simplified.
 :END:
@@ -142,7 +142,7 @@ the entire show and hide functionalities into a single command,
 Outlines make it possible to hide parts of the text in the buffer.
 Org uses just two commands, bound to {{{kbd(TAB)}}} and
 {{{kbd{S-TAB)}}} to change the visibility in the buffer.
-
+大纲可以折叠标题，以隐藏下面的文本。奥戈使用两个命令来改变可见性：{{{kbd(TAB)}}}和{{{kbd(S-TAB)}}}。
 #+attr_texinfo: :sep ,
 - {{{kbd(TAB)}}} ::
 
