@@ -145,7 +145,7 @@ Org uses just two commands, bound to {{{kbd(TAB)}}} and
 大纲可以折叠标题，以隐藏下面的文本。奥戈使用两个命令来改变可见性：{{{kbd(TAB)}}}和{{{kbd(S-TAB)}}}。
 #+attr_texinfo: :sep ,
 - {{{kbd(TAB)}}} ::
-
+  
   /Subtree cycling/: Rotate current subtree among the states
 
  : ,-> FOLDED -> CHILDREN -> SUBTREE --.
@@ -190,7 +190,7 @@ The following commands jump to other headlines in the buffer.
 
 - {{{kbd(C-c C-u)}}} :: Backward to higher level heading.
 
-** Structure Editing
+** Structure Editing 编辑标题
 :PROPERTIES:
 :DESCRIPTION: Changing sequence and level of headlines.
 :END:
@@ -202,29 +202,36 @@ The following commands jump to other headlines in the buffer.
   a plain list item, a new item is created (see [[Plain Lists]]).  When
   this command is used in the middle of a line, the line is split and
   the rest of the line becomes the new headline[fn:2].
+  在当前位置插入新的同等等级的标题。如果当前是在一个列表项目，则会建立一个新的列表项。
+  当在一行的中间使用这个命令，那么这行会分断，这行后面的部分会成为新的标题。
 
 - {{{kbd(M-S-RET)}}} ::
 
   Insert new TODO entry with same level as current heading.
+  插入一个新的当前等级待办列表。
 
 - {{{kbd(TAB)}}} in new, empty entry ::
 
   In a new entry with no text yet, {{{kbd(TAB)}}} cycles through
   reasonable levels.
+  在一个新的没有文本的项目里，TAB健会循环显示可用的等级。
 
 - {{{kbd(M-LEFT)}}}, {{{kbd(M-RIGHT)}}} ::
 
   Promote or demote current heading by one level.
+  提高或者降低当前的标题等级。
 
 - {{{kbd(M-UP)}}}, {{{kbd(M-DOWN)}}} ::
 
   Move subtree up or down, i.e., swap with previous or next subtree of
   same level.
+  在子标题里上下移动，例如：在当先的或者下一个子标题的相同等级转换。
 
 - {{{kbd(C-c C-w)}}} ::
 
   Refile entry or region to a different location.  See [[*Refile and
   Copy]].
+  没看懂 TODO 以后在看看。
 
 - {{{kbd(C-x n s)}}}, {{{kbd(C-x n w)}}} ::
 
@@ -233,7 +240,7 @@ The following commands jump to other headlines in the buffer.
 When there is an active region (Transient Mark mode), promotion and
 demotion work on all headlines in the region.
 
-** Sparse Trees
+** Sparse Trees 稀疏树
 :PROPERTIES:
 :DESCRIPTION: Matches embedded in context.
 :END:
@@ -262,7 +269,7 @@ commands can be accessed through a dispatcher:
   keywords, tags, or properties and will be discussed later in this
   manual.
 
-** Plain Lists
+** Plain Lists 空白列表
 :PROPERTIES:
 :DESCRIPTION: Additional structure within an entry.
 :END:
