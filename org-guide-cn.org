@@ -173,7 +173,7 @@ basis by adding a =STARTUP= keyword to =overview=, =content=, or
 
 : #+STARTUP: content
 
-** Motion
+** Motion 移动快捷键
 :PROPERTIES:
 :DESCRIPTION: Jumping to other headlines.
 :END:
@@ -280,6 +280,8 @@ checkboxes (see [[*Checkboxes]]).  Org supports editing such lists, and
 every exporter (see [[*Exporting]]) can parse and format them.
 
 Org knows ordered lists, unordered lists, and description lists.
+在大纲树的一个项目里，手动格式列表能够提供额外的结构。他们也可以提供一个方法来创建
+检查盒的列表。奥戈支持编辑这样的列表，而且每个导出器都能够识别他们。
 
 #+attr_texinfo: :indic @bullet
 - /Unordered/ list items start with =-=, =+=, or =*= as bullets.
@@ -293,7 +295,8 @@ Items belonging to the same list must have the same indentation on the
 first line.  An item ends before the next line that is indented like
 its bullet/number, or less.  A list ends when all items are closed, or
 before two blank lines.  An example:
-
+相同的列表的项目必须具有相同的缩进。项在缩进的下一行（如项目符号/编号或更少）之前结束。
+当所有项目都关闭时或在两个空白行之前，列表结束。
 #+begin_example
 ,* Lord of the Rings
   My favorite scenes are (in this order)
