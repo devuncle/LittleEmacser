@@ -489,7 +489,7 @@ automatically made blank.
   range between the nearest horizontal separator lines, or the entire
   table.
 
-* Hyperlinks
+* 超链接
 :PROPERTIES:
 :DESCRIPTION: Notes in context.
 :END:
@@ -513,7 +513,12 @@ changes the display so that =DESCRIPTION= is displayed instead of
 =[[LINK][DESCRIPTION]]= and =LINK= is displayed instead of =[[LINK]]=.
 To edit the invisible {{{var(LINK)}}} part, use {{{kbd(C-c C-l)}}}
 with the point on the link.
-
+与HTML类似，奥戈提供了文件内部的链接，连接到其它文件的链接，论坛文章链接，
+电子邮件等等很多。
+奥戈会识别纯网络链接，可能是包裹在方括号内的，激活他们作为可以点击的链接。链接的一般格式为：
+: [[链接][链接描述]]
+或者：
+: [[链接]]
 ** Internal links
 :PROPERTIES:
 :UNNUMBERED: notoc
@@ -528,7 +533,7 @@ Links such as =[[My Target]]= or =[[My Target][Find my target]]= lead
 to a text search in the current file for the corresponding target,
 which looks like =<<My Target>>=.
 
-** External Links
+** 外部链接
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
@@ -565,20 +570,22 @@ examples,, together with an explanation:
 | =file:~/xx.org::My Target=         | Find =<<My Target>>=        |
 | =[[file:~/xx.org::#my-custom-id]]= | Find entry with a custom ID |
 
-** Handling Links
+** 处理链接
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
 
 Org provides methods to create a link in the correct syntax, to insert
 it into an Org file, and to follow the link.
-
+奥戈提供了一些方法去正确地创建链接，在一个奥戈文件里插入链接，并且去跟踪链接。
 The main function is ~org-store-link~, called with {{{kbd(M-x
 org-store-link)}}}.  Because of its importance, we suggest to bind it
 to a widely available key (see [[*Activation]]).  It stores a link to the
 current location.  The link is stored for later insertion into an Org
 buffer---see below.
-
+主要的函数是 ~org-store-link~ ，叫做 {{{kbd(M-x org-store-link)}}} 。因为她很重要，
+我们建议把它绑定为一个广泛使用的快捷键。 她存储了一个当前位置的链接。这个链接可以在另外一个
+奥戈文件里插入。详见下面。
 From an Org buffer, the following commands create, navigate or, more
 generally, act on links.
 
