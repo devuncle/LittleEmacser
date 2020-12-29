@@ -895,7 +895,7 @@ The following commands work with checkboxes:
   Insert a new item with a checkbox.  This works only if point is
   already in a plain list item (see [[*Plain Lists]]).
 
-* Tags
+* Tags 标签🏷️     :tag:标签:
 :PROPERTIES:
 :DESCRIPTION: Tagging headlines and matching sets of tags.
 :END:
@@ -909,6 +909,8 @@ the headline.  Tags are normal words containing letters, numbers, =_=,
 and =@=.  Tags must be preceded and followed by a single colon, e.g.,
 =:work:=.  Several tags can be specified, as in =:work:urgent:=.  Tags
 by default are in bold face with the same color as the headline.
+给标题加上标签是很好的跨届信息，以实现标签和内容。奥戈模式对标签有很好的支持。
+每个标题可以包含若干个标签，他们在标题的后面。
 
 ** Tag inheritance
 :PROPERTIES:
@@ -1040,7 +1042,7 @@ the search string is rich and allows also matching against TODO
 keywords, entry levels and properties.  For a more detailed description
 with many examples, see [[*Matching Tags and Properties]].
 
-* Properties
+* Properties 属性
 :PROPERTIES:
 :DESCRIPTION: Storing information about an entry.
 :END:
@@ -1322,7 +1324,7 @@ The {{{kbd(l)}}} key may be used in the agenda (see [[*The Weekly/daily
 Agenda]]) to show which tasks have been worked on or closed during
 a day.
 
-* Capture, Refile, Archive
+* Capture, Refile, Archive 捕获 归档 封存
 :PROPERTIES:
 :DESCRIPTION: The ins and outs for projects.
 :END:
