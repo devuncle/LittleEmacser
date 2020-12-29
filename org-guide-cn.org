@@ -630,13 +630,14 @@ emerged.
 
 Org mode provides methods to give you an overview of all the things
 that you have to do, collected from many files.
+
 奥戈模式不需要TODO列表位于单独的文档中。
 相反，TODO项是注释文件的一部分，因为TODO项通常在记录笔记时出现！
 使用奥戈模式，只需将树中的任何条目标记为待办事项。 这样，信息就不会重复，
 并且TODO项保留在它们出现的上下文中。
 奥戈模式提供了一些方法，可让您概述从许多文件中收集的所有必需要做的事情。
 
-** Basic TODO Functionality
+** DONE 基本的计划功能 Basic TODO Functionality
 :PROPERTIES:
 :DESCRIPTION: Marking and displaying TODO entries.
 :ALT_TITLE: TODO Basics
@@ -648,7 +649,6 @@ for example:
 : *** TODO Write letter to Sam Fortune
 
 The most important commands to work with TODO entries are:
-
 #+attr_texinfo: :sep ,
 - {{{kbd(C-c C-t)}}} ::
 
@@ -681,10 +681,12 @@ The most important commands to work with TODO entries are:
 
   Insert a new TODO entry below the current one.
 
+- [ ] 练习使用列表计划工作 :: 这个是什么不知道
+
 Changing a TODO state can also trigger tag changes.  See the docstring
 of the option ~org-todo-state-tags-triggers~ for details.
 
-** Multi-state Workflow
+** 多个状态工作流 Multi-state Workflow
 :PROPERTIES:
 :DESCRIPTION: More than just on/off.
 :END:
@@ -735,7 +737,7 @@ following text anywhere in the file.
 After changing one of these lines, use {{{kbd(C-c C-c)}}} with the
 cursor still in the line to make the changes known to Org mode.
 
-** Progress Logging
+** 过程日志 Progress Logging
 :PROPERTIES:
 :DESCRIPTION: Dates and notes for progress.
 :END:
@@ -833,7 +835,7 @@ a difference only in the agenda.
 
   Increase/decrease the priority of the current headline.
 
-** Breaking Tasks Down into Subtasks
+** 分解任务 Breaking Tasks Down into Subtasks
 :PROPERTIES:
 :DESCRIPTION: Splitting a task into manageable pieces.
 :ALT_TITLE: Breaking Down Tasks
@@ -856,7 +858,7 @@ when pressing {{{kbd(C-c C-c)}}} on the cookie.  For example:
 ,** DONE Talk to neighbor
 #+end_example
 
-** Checkboxes
+** 检查盒子 Checkboxes
 :PROPERTIES:
 :DESCRIPTION: Tick-off lists.
 :END:
