@@ -630,6 +630,11 @@ emerged.
 
 Org mode provides methods to give you an overview of all the things
 that you have to do, collected from many files.
+奥戈模式不需要TODO列表位于单独的文档中。
+相反，TODO项是注释文件的一部分，因为TODO项通常在记录笔记时出现！
+使用奥戈模式，只需将树中的任何条目标记为待办事项。 这样，信息就不会重复，
+并且TODO项保留在它们出现的上下文中。
+奥戈模式提供了一些方法，可让您概述从许多文件中收集的所有必需要做的事情。
 
 ** Basic TODO Functionality
 :PROPERTIES:
