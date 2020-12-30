@@ -1495,7 +1495,7 @@ example:
 
 : #+ARCHIVE: %s_done::
 
-* Agenda Views
+* Agenda Views 日程视图
 :PROPERTIES:
 :DESCRIPTION: Collecting information into views.
 :END:
@@ -1514,7 +1514,15 @@ for example, that you can change the dates of deadlines and
 appointments from the agenda buffer.  For commands available in the
 Agenda buffer, see [[*Commands in the Agenda Buffer]].
 
-** Agenda Files
+由于Org的工作方式，TODO项目，带时间戳的项目和带有标题的标题可能分散在整个文件甚至
+多个文件中。 要获得未完成操作项目或对于特定日期重要的事件的概述，必须以组织方式收集
+，分类和显示此信息。
+
+提取的信息显示在特殊的/议程缓冲区/中。 该缓冲区是只读的，但提供命令来访问原始Org文件
+中的相应位置，甚至可以远程编辑这些文件。 例如，从议程缓冲区进行远程编辑意味着您可以从
+议程缓冲区中更改截止日期和约会的日期。 有关议程缓冲区中可用的命令，请参阅[[*议程缓冲区中的命令]]。
+
+** Agenda Files 日程文件
 :PROPERTIES:
 :DESCRIPTION: Files being searched for agenda information.
 :END:
@@ -1538,7 +1546,7 @@ files/, the files listed in the variable ~org-agenda-files~.
 
   Cycle through agenda file list, visiting one file after the other.
 
-** The Agenda Dispatcher
+** The Agenda Dispatcher 日程调度
 :PROPERTIES:
 :DESCRIPTION: Keyboard access to agenda views.
 :ALT_TITLE: Agenda Dispatcher
