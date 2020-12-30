@@ -616,7 +616,7 @@ generally, act on links.
   this command several times in direct succession moves through a ring
   of previously recorded positions.
 
-* TODO Items
+* TODO Items 待办列表
 :PROPERTIES:
 :DESCRIPTION: Every tree branch can be a TODO item.
 :END:
@@ -1942,7 +1942,7 @@ matching.  The example above will therefore define:
   The same search, but limiting it to headlines that are also TODO
   items.
 
-* Markup for Rich Contents
+* Markup for Rich Contents 富文档的标记
 :PROPERTIES:
 :DESCRIPTION: Compose beautiful documents.
 :ALT_TITLE: Markup
@@ -1953,8 +1953,10 @@ plain-text notes.  However, it also provides a lightweight yet robust
 markup language for rich text formatting and more.  Used in
 conjunction with the export framework (see [[*Exporting]]), you can author
 beautiful documents in Org.
+奥戈主要是关于组织和搜索你的纯文本笔记。然而，她也提供了一个轻量级的支持富文本格式的标记语言。
+通过联合使用额外的框架，你可以用奥戈写出漂亮的文档。
 
-** Paragraphs
+** Paragraphs 段落
 :PROPERTIES:
 :DESCRIPTION: The basic unit of text.
 :END:
@@ -2006,6 +2008,8 @@ You can make words =*bold*=, =/italic/=, =_underlined_=, ==verbatim==
 and =~code~=, and, if you must, =+strike-through+=.  Text in the code
 and verbatim string is not processed for Org specific syntax; it is
 exported verbatim.
+粗体：*cuti*, 斜体： /xieti斜体/, 下划线： _xhus分地方_, 逐字逐句： =fedfe废科举=
+代码： ~dfe~ 。
 
 ** Embedded LaTeX
 :PROPERTIES:
@@ -2573,12 +2577,12 @@ variable and "Noweb" style references.  In order to tangle a code
 block it must have a =tangle= header argument, see the manual for
 details.
 
-* Miscellaneous
+* Miscellaneous 乱七八糟
 :PROPERTIES:
 :DESCRIPTION: All the rest which did not fit elsewhere.
 :END:
 
-** Completion
+** Completion 自动补全
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
@@ -2592,7 +2596,7 @@ keywords at the beginning of a headline, and tags after =:= in
 a headline.
 
 
-** Structure Templates
+** Structure Templates 模板
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
@@ -2600,12 +2604,13 @@ a headline.
 To quickly insert empty structural blocks, such as =#+BEGIN_SRC=
 ... =#+END_SRC=, or to wrap existing text in such a block, use
 
+
 - {{{kbd(C-c C-\,)}}} ::
 
   Prompt for a type of block structure, and insert the block at point.
   If the region is active, it is wrapped in the block.
 
-** Clean view
+** Clean view 干净的视图
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
