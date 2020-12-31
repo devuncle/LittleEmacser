@@ -113,7 +113,10 @@ worked on.  Org greatly simplifies the use of outlines by compressing
 the entire show and hide functionalities into a single command,
 ~org-cycle~, which is bound to the {{{kbd(TAB)}}} key.
 
-奥戈Org是一个大纲。大纲允许将文档组织成一个层次结构，至少对我来说，这是笔记和思想的最佳表现。这个结构的概述可以通过折叠来实现，也就是隐藏文档的大部分，只显示一般的文档结构和当前正在处理的部分。Org通过将整个显示和隐藏功能压缩到单个命令~Org -cycle~中，极大地简化了文档的使用，该命令绑定到{{{kbd(TAB)}}}键。
+奥戈Org是一个大纲。大纲允许将文档组织成一个层次结构，至少对我来说，这是笔记和思想
+的最佳表现。这个结构的概述可以通过折叠来实现，也就是隐藏文档的大部分，只显示一般的
+文档结构和当前正在处理的部分。Org通过将整个显示和隐藏功能压缩到单个命令~Org -cycle~中，
+极大地简化了文档的使用，该命令绑定到{{{kbd(TAB)}}}键。
 
 ** 标题
 :PROPERTIES:
@@ -253,7 +256,14 @@ Just try it out and you will see immediately how it works.
 
 Org mode contains several commands creating such trees, all these
 commands can be accessed through a dispatcher:
+奥戈模式的一个重要特征是能够构造/稀疏
+树/用于在大纲树中选择信息，以便整个
+文档尽可能折叠，但所选信息
+与上方的标题结构一起可见[fn：3]。
+只需尝试一下，您将立即看到它是如何工作的。
 
+组织模式包含创建这些树的几个命令，所有这些
+可以通过调度程序访问命令：
 - {{{kbd(C-c /)}}} ::
 
   This prompts for an extra key to select a sparse-tree creating
@@ -352,7 +362,7 @@ an item (the line with the bullet or number).
   Cycle the entire list level through the different itemize/enumerate
   bullets (=-=, =+=, =*=, =1.=, =1)=).
 
-* Tables
+* Tables 表格
 :PROPERTIES:
 :DESCRIPTION: Pure magic for quick formatting.
 :END:
