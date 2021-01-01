@@ -1346,7 +1346,10 @@ store files related to a task (/attachments/) in a special directory.
 Once in the system, tasks and projects need to be moved around.
 Moving completed project trees to an archive file keeps the system
 compact and fast.
-
+任何组织系统的一个主要部分是可以快速捕获灵感和任务，并且把相关资料综合在一起的能力。
+奥戈模式使用叫做 “捕获” 的过程来完成它。捕获还能够存储任务的相关联的文件在一个特定
+的目录里。一旦在系统里任务和项目需要移动。移动完整的项目文件到一个归档的文件，以保证系统的
+整洁和快速。
 ** Capture
 :PROPERTIES:
 :DESCRIPTION: Capturing new stuff.
